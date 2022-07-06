@@ -69,6 +69,10 @@
  */
 - (void)categoryView:(JXCategoryBaseView *)categoryView scrollingFromLeftIndex:(NSInteger)leftIndex toRightIndex:(NSInteger)rightIndex ratio:(CGFloat)ratio;
 
+
+- (void)categoryView:(JXCategoryBaseView *)categoryView cellForAtIndexPath:(NSIndexPath *)indexPath;
+
+
 @end
 
 @interface JXCategoryBaseView : UIView
